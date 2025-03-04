@@ -261,8 +261,8 @@ body {
 
 /* Skill Icons */
 .skill-card img {
-    max-width: 40px;
-    max-height: 40px;
+    max-width: 60px;
+    max-height: 30px;
 }
 
 /* ========================= */
@@ -280,7 +280,7 @@ body {
 
     /* Smaller Skill Icons on Mobile */
     .skill-card img {
-        max-width: 30px;
+        max-width: 60px;
         max-height: 30px;
     }
 
@@ -724,8 +724,8 @@ body {
 }
 @media (max-width: 768px){
     #Contact{
-        margin-left: 50px;
-        margin-right: 99px;
+        margin-left: 20px;
+        margin-right: 70px;
        
         
     }
@@ -737,12 +737,18 @@ body {
        
     }
 }
-.home{
+@media (max-width: 768px){
     .para{
         padding-right: 70px;
+        text-align: justify;
+        word-spacing:-1px;
         
        
        
+    }
+    .home-content{
+        max-width:600px;
+        margin:auto;
     }
    
     
@@ -755,7 +761,7 @@ body {
 }
 @media (max-width: 768px){
     .menu-icon{
-        margin-right:50px;
+        margin-right:20px;
     }
     
 }
@@ -791,7 +797,6 @@ body {
     padding: 10px;
     color: white;
     text-decoration: none;
-    margin-left:80px;
 }
 
 .navbar.active {
@@ -802,5 +807,42 @@ body {
     margin-top: 60px; /* Pushes content down to avoid being overlapped */
 }
 }
+@media (max-width: 768px) {
+    .project-card{
+        max-width: 590px;
+        max-height: 530px;
+        
+    }
+    
+}
+@media (max-width: 768px) {
+    .about-text p{
+        word-spacing: -1px;
+        line-height: 1.6;
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 768px) {
+    #box{
+        margin-top: 25px;
+        font-weight: bold;
+        letter-spacing: 0px;
+    }
+}
+@media (max-width: 768px) {
+    #total{
+        margin-right:20pxpx;
+    }
+}
 
 
+
+
+   
+    
+   
+    
+    
+
+   
+        
